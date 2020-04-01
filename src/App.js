@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import MainPage from './components/MainPage.js';
+
+// The App.js will be kept simple and the components will be handled in MainPage
+// If the app needs to be extended with more pages, for example, they will be
+// added here
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+        <MainPage />
     </div>
   );
 }
