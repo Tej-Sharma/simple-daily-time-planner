@@ -1,8 +1,8 @@
 ## Simple Daily Time Planner React and React-Bootstrap App
 
-A simple single-page React app to check out your time usage over time.
+A simple single-page React app to let you plan your time usage throught out the day.
 
-For demo purposes of React. Created by Tejas Sharma.
+Mainly built for demo purposes, but you may find it useful if you are implemnting such a time-management system in your project.
 
 ## MainPage
 
